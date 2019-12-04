@@ -37,6 +37,7 @@ https://tippin.me/@pavlowd
 Installation
 
 1. Unzip module, upload to store root directory
+
 * Opencart 1.5.5.1 - unzip module, upload to store root directory
 * Opencart 2.1.0.2 - You can unzip/upload content or use ocmod to install module.
 * Opencart 3.0.2.0 - You can unzip/upload content or use ocmod to install module.
