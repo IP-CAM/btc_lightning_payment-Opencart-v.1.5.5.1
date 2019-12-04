@@ -8,17 +8,17 @@ Module use invoice.macaroon hex for invoice generation.
 
 Here you can try demo:
 
-[b]Opencart 1.5.5.1 [/b]
+Opencart 1.5.5.1
 https://demo-oc1564.khita.org/
 https://demo-oc1564.khita.org/admin/
 demo;demo
 
-[b]Opencart 2.1.0.2 [/b]
+Opencart 2.1.0.2
 https://demo-oc2102.khita.org/
 https://demo-oc2102.khita.org/admin/
 demo;demo
 
-[b]Opencart 3.0.2.0[/b]
+Opencart 3.0.2.0
 https://demo-oc3020.khita.org/
 https://demo-oc3020.khita.org/admin/
 demo;demo
@@ -30,8 +30,9 @@ Please leave feedback, what would you like to see in new version.
 Donate: 32t6RyByH4qzRoKotawBVCUbmSxGRt2x1f
 https://tippin.me/@pavlowd
 
-===========================================================================================
-===========================================================================================
+
+
+
 
 Installation
 
@@ -46,7 +47,7 @@ If you don't see module on Payments page, make sure that you have rights to edit
 
 
 To get macaroon.invoice hex use
-[code]xxd -ps -u -c 1000  /home/bitcoin/.lnd/data/chain/bitcoin/mainnet/invoice.macaroon[/code]
+`xxd -ps -u -c 1000  /home/bitcoin/.lnd/data/chain/bitcoin/mainnet/invoice.macaroon`
 command
 
 How to allow REST API requests to your Lightning Node:
