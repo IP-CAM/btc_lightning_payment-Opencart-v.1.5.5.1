@@ -9,19 +9,8 @@ Module use invoice.macaroon hex for invoice generation.
   
 Here you can try demo:  
 
-Opencart 1.5.5.1  
 https://demo-oc1564.khita.org/  
 https://demo-oc1564.khita.org/admin/  
-demo;demo  
-  
-Opencart 2.1.0.2  
-https://demo-oc2102.khita.org/  
-https://demo-oc2102.khita.org/admin/  
-demo;demo  
-  
-Opencart 3.0.2.0  
-https://demo-oc3020.khita.org/  
-https://demo-oc3020.khita.org/admin/  
 demo;demo  
   
 Bitcoin Lightning Network is on development now, so be careful, you can lost your BTC.   
@@ -37,12 +26,7 @@ https://tippin.me/@pavlowd
   
 **Installation**
 
-1. Unzip module, upload to store root directory
-  
-* Opencart 1.5.5.1 - unzip module, upload to store root directory
-* Opencart 2.1.0.2 - You can unzip/upload content or use ocmod to install module.
-* Opencart 3.0.2.0 - You can unzip/upload content or use ocmod to install module.
-
+1. unzip module, upload to store root directory
 2. Install module "Bitcoin Payment" in Extension > Payment.
 3. Edit module configuration, and save changes.  
 If you don't see module on Payments page, make sure that you have rights to edit module in System > User Permissions > Administrator  
