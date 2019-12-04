@@ -1,19 +1,20 @@
-Author: khita.org
-Telegram Contact: https://t.me/pavlowd
-License: GNU General Public License version 3 (GPLv3)
-
-This is payment gateway for Bitcoin Lightning Network users who have running own LN node.
-You need to have open lnd REST API port to use this module.
-Module use invoice.macaroon hex for invoice generation.
-
-Here you can try demo:
+Author: Pavlowd
+Telegram Contact: https://t.me/pavlowd  
+Website: https://khita.org  
+License: GNU General Public License version 3 (GPLv3)  
+  
+This is payment gateway for Bitcoin Lightning Network users who have running own LN node.  
+You need to have open lnd REST API port to use this module.  
+Module use invoice.macaroon hex for invoice generation.  
+  
+Here you can try demo:  
 
 Opencart 1.5.5.1  
 https://demo-oc1564.khita.org/  
 https://demo-oc1564.khita.org/admin/  
 demo;demo  
   
-Opencart 2.1.0.2  <br/>
+Opencart 2.1.0.2  
 https://demo-oc2102.khita.org/  
 https://demo-oc2102.khita.org/admin/  
 demo;demo  
