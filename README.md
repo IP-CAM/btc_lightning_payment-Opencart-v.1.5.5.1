@@ -3,7 +3,7 @@ Telegram Contact: https://t.me/pavlowd
 Website: https://khita.org  
 License: GNU General Public License version 3 (GPLv3)  
   
-This is payment gateway for Bitcoin Lightning Network users who have running own LN node.  
+This is Bitcoin Lightning Network payment gateway for Opencart, that might be used by users who have running own LN node.   
 You need to have open lnd REST API port to use this module.  
 Module use invoice.macaroon hex for invoice generation.  
   
