@@ -1,4 +1,4 @@
-Author: Pavlowd
+Author: Pavlowd  
 Telegram Contact: https://t.me/pavlowd  
 Website: https://khita.org  
 License: GNU General Public License version 3 (GPLv3)  
