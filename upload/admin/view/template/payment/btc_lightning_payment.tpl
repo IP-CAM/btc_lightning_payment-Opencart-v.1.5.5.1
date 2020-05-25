@@ -52,29 +52,7 @@
           <tr>
             <td><?php echo $entry_add_percent; ?></td>
             <td><input type="number" max="100" min="0" style="width:50px" name="btc_lightning_payment_add_percent" value="<?php echo $btc_lightning_payment_add_percent; ?>" /></td>
-          </tr>
-          <tr>
-            <td><?php echo $entry_price_change_amount; ?></td>
-            <td><input type="number" max="100" min="0" style="width:50px" name="btc_lightning_payment_price_change_amount" value="<?php echo $btc_lightning_payment_price_change_amount; ?>" /></td>
-          </tr>
-          <!--<tr>
-            <td><?php echo $entry_timezone; ?></td>
-            <td><?php
-              function select_Timezone($selected = '') {
-                  $OptionsArray = timezone_identifiers_list();
-                      $select= '<select name="btc_lightning_payment_timezone">';
-                      foreach($OptionsArray as $key => $row){
-                          $select .='<option value="'.$row.'"';
-                          $select .= ($row == $selected ? ' selected' : '');
-                          $select .= '>'.$row.'</option>';
-                      }
-                      $select.='</select>';
-              return $select;
-              }
-              echo select_Timezone($btc_lightning_payment_timezone);
-            ?>
-            </td>
-          </tr> -->          
+          </tr>        
           <tr>
             <td><?php echo $entry_order_status; ?></td>
             <td><select name="btc_lightning_payment_order_status_id">

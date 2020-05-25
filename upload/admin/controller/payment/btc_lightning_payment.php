@@ -28,7 +28,6 @@ class ControllerPaymentBtcLightningPayment extends Controller {
 		$this->data['entry_lightning_node_invoice_macaroon_hex'] = $this->language->get('entry_lightning_node_invoice_macaroon_hex');
 		$this->data['entry_lightning_node_pubkey'] = $this->language->get('entry_lightning_node_pubkey');
 		//$this->data['entry_timezone'] = $this->language->get('entry_timezone');
-		$this->data['entry_price_change_amount'] = $this->language->get('entry_price_change_amount');
 		$this->data['entry_disable_price_change'] = $this->language->get('entry_disable_price_change');
 		$this->data['entry_total'] = $this->language->get('entry_total');	
 		$this->data['entry_add_percent'] = $this->language->get('entry_add_percent');	
@@ -97,7 +96,7 @@ class ControllerPaymentBtcLightningPayment extends Controller {
 		if (isset($this->request->post['btc_lightning_node_invoice_macaroon_hex'])) {
 			$this->data['btc_lightning_node_invoice_macaroon_hex'] = $this->request->post['btc_lightning_node_invoice_macaroon_hex'];
 		} else {
-			$this->data['btc_lightning_node_invoice_macaroon_hex'] = $this->config->get('btc_lightning_node_invoice_macaroon_hex'); 
+			$this->data['btc_lightning_node_invoice_macaroon_hex'] = 'hidden' /*$this->config->get('btc_lightning_node_invoice_macaroon_hex')*/; 
 		} 	
 
 		if (isset($this->request->post['btc_lightning_node_pubkey'])) {
@@ -125,18 +124,6 @@ class ControllerPaymentBtcLightningPayment extends Controller {
 		} else {
 			$this->data['btc_lightning_payment_order_status_id'] = $this->config->get('btc_lightning_payment_order_status_id'); 
 		}
-
-		/*if (isset($this->request->post['btc_lightning_payment_timezone'])) {
-			$this->data['btc_lightning_payment_timezone'] = $this->request->post['btc_lightning_payment_timezone'];
-		} else {
-			$this->data['btc_lightning_payment_timezone'] = $this->config->get('btc_lightning_payment_timezone'); 
-		} 		*/ 
-
-		if (isset($this->request->post['btc_lightning_payment_price_change_amount'])) {
-			$this->data['btc_lightning_payment_price_change_amount'] = $this->request->post['btc_lightning_payment_price_change_amount'];
-		} else {
-			$this->data['btc_lightning_payment_price_change_amount'] = $this->config->get('btc_lightning_payment_price_change_amount'); 
-		} 
 
 		$this->load->model('localisation/order_status');
 		
